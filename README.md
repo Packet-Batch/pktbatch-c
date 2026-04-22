@@ -1,3 +1,10 @@
+# [Rewritten Version In Rust!!!](https://github.com/Packet-Batch/pktbatch-rs)
+* More features including a mode for display real-time TX counters with a graph!
+* More modern codebase.
+* More stable and in some cases faster than the C version.
+* **The C version will still be maintained and receive updates, but the Rust version will be the main focus for new features and improvements!**
+
+
 [![Packet Batch AF_XDP Build Workflow](https://github.com/Packet-Batch/PB-AF-XDP/actions/workflows/build.yml/badge.svg)](https://github.com/Packet-Batch/PB-AF-XDP/actions/workflows/build.yml) [![Packet Batch AF_XDP Run Workflow](https://github.com/Packet-Batch/PB-AF-XDP/actions/workflows/run.yml/badge.svg)](https://github.com/Packet-Batch/PB-AF-XDP/actions/workflows/run.yml)
 
 [Packet Batch](https://github.com/Packet-Batch) is a collection of high-performance applications and tools designed for generating and sending network packets. It serves two main purposes: penetration testing, which involves assessing network security by simulating various attacks like [Denial of Service](https://www.cloudflare.com/learning/ddos/glossary/denial-of-service/) (DoS); and network monitoring, which involves analyzing and inspecting network traffic.
