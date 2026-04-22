@@ -86,7 +86,7 @@ After installing, the executable is copied to the `/usr/bin/` directory which sh
 For example.
 
 ```bash
-pcktbatch -c /path/to/conf.json
+pktbatch -c /path/to/conf.json
 ```
 
 ## Command Line Usage
@@ -94,7 +94,7 @@ pcktbatch -c /path/to/conf.json
 Basic command line usage may be found below.
 
 ```bash
-Usage: pcktbatch -c <configfile> [-v -h]
+Usage: pktbatch -c <configfile> [-v -h]
 
 -c --cfg => Path to the config file.
 -l --list => Print basic information about sequences.
@@ -579,7 +579,7 @@ The length object contains the following fields.
 
 If you are looking for full examples, please check out [this repository](https://github.com/Packet-Batch/PB-Tests).
 
-**NOTE** - The default config path is `/etc/pcktbatch/conf.json`. This may be changed via the `-c` and `--cfg` flags as explained under the Command Line Usage section below.
+**NOTE** - The default config path is `/etc/pktbatch/conf.json`. This may be changed via the `-c` and `--cfg` flags as explained under the Command Line Usage section below.
 
 ## Notes
 ### Seeding & Randomness

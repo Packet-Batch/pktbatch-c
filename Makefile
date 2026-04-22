@@ -19,7 +19,7 @@ BUILD_DIR := build
 SRC_DIR := src
 MODULES_DIR := modules
 
-MAIN_OUT := pcktbatch
+MAIN_OUT := pktbatch
 MAIN_SRC := main.c
 
 SRC_DIR_COMMON = $(SRC_DIR)/common

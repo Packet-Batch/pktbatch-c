@@ -91,7 +91,7 @@ static struct option cli_opts[] = {
  * @return void
  **/
 void cli__print_help() {
-    fprintf(stdout, "Usage: pcktbatch -c <configfile> [-v -h ...]\n");
+    fprintf(stdout, "Usage: pktbatch -c <configfile> [-v -h ...]\n");
 
     // Basic.
     fprintf(stdout, "Basic\n");

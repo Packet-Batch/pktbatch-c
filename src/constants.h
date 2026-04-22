@@ -22,7 +22,7 @@
 // completely static packets. #define AF_XDP_NO_REFILL_FRAMES
 
 // The default config path to parse.
-#define CONF_PATH_DEFAULT "/etc/pcktbatch/conf.json"
+#define CONF_PATH_DEFAULT "/etc/pktbatch/conf.json"
 
 // If defined, the program will attempt to raise the stack limit. This shouldn't
 // be needed, but wanted to include just in case. #define CONF_UNLOCK_RLIMIT

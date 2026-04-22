@@ -8,7 +8,7 @@ on:
 
 jobs:
   reuse_build:
-    uses: Packet-Batch/Program/.github/workflows/build.yml@master
+    uses: Packet-Batch/pktbatch-c/.github/workflows/build.yml@master
   run:
     needs: reuse_build
     runs-on: ubuntu-latest
@@ -24,6 +24,6 @@ jobs:
     - name: List files
       run: ls -la
     - name: Add execute permissions to executable file
-      run: sudo chmod +x ./pcktbatch
+      run: sudo chmod +x ./pktbatch
     - name: Run Packet Batch with help menu
-      run: sudo ./pcktbatch -h
+      run: sudo ./pktbatch -h
