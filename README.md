@@ -1,9 +1,8 @@
 # [Rewritten Version In Rust!!!](https://github.com/Packet-Batch/pktbatch-rs)
-* More features including a mode for display real-time TX counters with a graph!
+* More features including a mode for displaying real-time TX counters with a graph!
 * More modern codebase.
 * More stable and in some cases faster than the C version.
 * **The C version will still be maintained and receive updates, but the Rust version will be the main focus for new features and improvements!**
-
 
 [![Packet Batch AF_XDP Build Workflow](https://github.com/Packet-Batch/PB-AF-XDP/actions/workflows/build.yml/badge.svg)](https://github.com/Packet-Batch/PB-AF-XDP/actions/workflows/build.yml) [![Packet Batch AF_XDP Run Workflow](https://github.com/Packet-Batch/PB-AF-XDP/actions/workflows/run.yml/badge.svg)](https://github.com/Packet-Batch/PB-AF-XDP/actions/workflows/run.yml)
 
